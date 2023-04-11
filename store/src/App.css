@@ -1,5 +1,9 @@
 .App {
   text-align: center;
+  display: flex;
+  height: 100vh;
+  width: 100%;
+
 }
 
 .App-logo {
@@ -37,6 +41,11 @@
   }
 }
 
-
+.App_background {
+  background: linear-gradient(to bottom right, #c22121, #4e1b4f);
+}
+.App_background_header {
+  background: #282c34;
+}
 
 
