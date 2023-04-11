@@ -47,5 +47,9 @@
 .App_background_header {
   background: #282c34;
 }
+.App_logo{
+  font-family: 'Righteous', cursive;
+  color: white;
+}
 
 
