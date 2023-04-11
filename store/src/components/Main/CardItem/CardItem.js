@@ -4,14 +4,13 @@ import apple from '../../../assets/img/Apple.png'
 
 const CardItem = () => {
     return (
-        <div className={styles.cardContainer}>
             <div className={styles.cardItem}>
                 <div className={styles.cardHeader}>
-                    <img src={apple} width={"200"} height={"100"} style={styles.cardLogo} alt="error"/>
+                    <img src={apple} width={"6%"} height={"5%"} style={styles.cardLogo} alt="error"/>
                     <p></p>
                 </div>
                 <div className={styles.cardPhoto}>
-                    
+                    <img src="" alt=""/>
                 </div>
                 <div style={styles.cardFooter}>
                     <p>
@@ -20,7 +19,6 @@ const CardItem = () => {
                     <img src="" alt=""/>
                 </div>
             </div>
-        </div>
     );
 };
 

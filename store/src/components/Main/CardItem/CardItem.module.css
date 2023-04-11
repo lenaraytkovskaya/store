@@ -1,3 +1,16 @@
-.CardLogo{
-    width: 13px;
+.cardItem{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+.cardHeader{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+.cardPhoto{
+
 }
